@@ -23,5 +23,14 @@ The server handles streaming logic, while the client connects and receives the s
 
 ### Server
 ```bash
-javac -cp ".:/home/ice21390304/Java/ffmpeg-java-libs/*" StreamingServer.java
-java -cp ".:/home/ice21390304/Java/ffmpeg-java-libs/*" StreamingServer
+javac -cp ".:/Java/ffmpeg-java-libs/*" StreamingServer.java
+java -cp ".:/Java/ffmpeg-java-libs/*" StreamingServer
+```
+
+### Client
+```bash
+javac StreamingClient.java
+java StreamingClient
+```
+
+
